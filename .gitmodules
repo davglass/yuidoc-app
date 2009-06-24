@@ -1,0 +1,3 @@
+[submodule "yuidoc"]
+	path = yuidoc
+	url = git://github.com/davglass/yuidoc.git
