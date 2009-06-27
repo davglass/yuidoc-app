@@ -7,7 +7,7 @@ The GUI now works (if you have the yuidoc dependencies already installed)
 There are a couple of additions I still want to make:
 
 * Progress Spinner
-* Disable Generate button of all data is not present
+* _Disable Generate button of all data is not present (done)_
 * Animate the logger window so it's smaller to begin with.
 * Create an icon
 

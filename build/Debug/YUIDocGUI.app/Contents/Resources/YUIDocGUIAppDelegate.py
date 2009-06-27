@@ -113,9 +113,10 @@ class YUIDocGUIAppDelegate(NSObject):
         #NSLog("LOG: %s" % self.logoutput)
         NSLog("VALIDATE: ")
         self._can_start = False
-        #self.generate.setEnabled_(False)
+        self.generateButton.setEnabled_(False)
+        NSLog("VALIDATE: %s" % self.sourcepath)
         if self.project_version and self.project_name and self.project_url and self.sourcepath and self.savepath:
-            #self.generate.setEnabled_(True)
+            self.generateButton.setEnabled_(True)
             self._can_start = True
             
 
@@ -135,7 +136,8 @@ class YUIDocGUIAppDelegate(NSObject):
             NSLog("Can not start, not enough info")
             return
 
-        self.textView.insertText_('Doc generation starting, please wait..')
+        self.textView.insertText_('Doc generation starting, please wait..\n')
+        self.generateButton.setTitle_('Generating..')
         
         ##This is a hack and needs to be fixed..
         yuidocPath = "%s/YUIDocGUI.app/Contents/Resources/yuidoc" % os.path.abspath('./')
@@ -159,7 +161,7 @@ class YUIDocGUIAppDelegate(NSObject):
 
         NSLog("Run: %s" % args)
         NSLog('Path: %s' % yuidocPath)
-
+        return True
         #call(args)
         error_file = open('/tmp/yuidoc.log', 'w+')
         
@@ -172,7 +174,8 @@ class YUIDocGUIAppDelegate(NSObject):
         logoutput = "%s %s" % (logoutput, f.read())
         NSLog("LOG: %s" % logoutput)
         
-        self.textView.insertText_('%s\n\nDocs finished..' % logoutput)
+        self.textView.insertText_('%s\nDocs finished..' % logoutput)
         NSLog("Docs finished..")
+        self.generateButton.setTitle_('Generate Docs')
 
 

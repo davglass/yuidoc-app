@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -344,6 +342,8 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -380,9 +380,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F0FC833A0FF5A0EC00CC02FF</string>
+				<string>F09CAD810FF5DEE8000E0629</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>F0FC833B0FF5A0EC00CC02FF</string>
+				<string>F09CAD820FF5DEE8000E0629</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -516,9 +516,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Volumes/Data/davglass/src/dev/yuidoc-app/YUIDocGUI.xcodeproj</string>
+		<string>F0118C820FF3C22800AC47D0</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>/Volumes/Data/davglass/src/dev/yuidoc-app/YUIDocGUI.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>157 397 785 453 0 0 1440 878 </string>
@@ -598,7 +599,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>F0118C820FF3C22800AC47D0</string>
-				<string>F0F9B8050FF5A07700430FF7</string>
+				<string>F09CAD960FF5E56B000E0629</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -692,10 +693,10 @@
 									<key>Frame</key>
 									<string>{{418, 0}, {498, 236}}</string>
 									<key>RubberWindowFrame</key>
-									<string>147 115 916 484 0 0 1440 878 </string>
+									<string>96 119 916 484 0 0 1440 878 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>147 115 916 484 0 0 1440 878 </string>
+								<string>96 119 916 484 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
@@ -718,18 +719,18 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>F0FC833C0FF5A0EC00CC02FF</string>
+				<string>F09CAD830FF5DEE8000E0629</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>F0FC833D0FF5A0EC00CC02FF</string>
-				<string>F0FC833E0FF5A0EC00CC02FF</string>
-				<string>F0FC833F0FF5A0EC00CC02FF</string>
-				<string>F0FC83400FF5A0EC00CC02FF</string>
-				<string>F0FC83410FF5A0EC00CC02FF</string>
+				<string>F09CAD840FF5DEE8000E0629</string>
+				<string>F09CAD850FF5DEE8000E0629</string>
+				<string>F09CAD860FF5DEE8000E0629</string>
+				<string>F09CAD870FF5DEE8000E0629</string>
+				<string>F09CAD880FF5DEE8000E0629</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>147 115 916 484 0 0 1440 878 </string>
+			<string>96 119 916 484 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
@@ -851,6 +852,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -886,7 +889,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>F0FC83420FF5A0EC00CC02FF</string>
+				<string>F09CAD970FF5E56B000E0629</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -896,7 +899,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
