@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -342,8 +344,6 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -380,9 +380,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F0F9B7BD0FF569DB00430FF7</string>
+				<string>F0FC833A0FF5A0EC00CC02FF</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>F0F9B7BE0FF569DB00430FF7</string>
+				<string>F0FC833B0FF5A0EC00CC02FF</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -516,10 +516,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>F0F9B8070FF5A07B00430FF7</string>
-		<string>F0F9B8080FF5A07B00430FF7</string>
-		<string>F0F9B8090FF5A07B00430FF7</string>
-		<string>F0118C820FF3C22800AC47D0</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Volumes/Data/davglass/src/dev/yuidoc-app/YUIDocGUI.xcodeproj</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -722,13 +718,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>F0F9B7BF0FF569DB00430FF7</string>
+				<string>F0FC833C0FF5A0EC00CC02FF</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>F0F9B7C00FF569DB00430FF7</string>
-				<string>F0F9B7C10FF569DB00430FF7</string>
-				<string>F0F9B7C20FF569DB00430FF7</string>
-				<string>F0F9B7C30FF569DB00430FF7</string>
-				<string>F0F9B7C40FF569DB00430FF7</string>
+				<string>F0FC833D0FF5A0EC00CC02FF</string>
+				<string>F0FC833E0FF5A0EC00CC02FF</string>
+				<string>F0FC833F0FF5A0EC00CC02FF</string>
+				<string>F0FC83400FF5A0EC00CC02FF</string>
+				<string>F0FC83410FF5A0EC00CC02FF</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -855,8 +851,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -892,7 +886,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>F0F9B8060FF5A07700430FF7</string>
+				<string>F0FC83420FF5A0EC00CC02FF</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
