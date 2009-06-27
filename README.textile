@@ -1,3 +1,27 @@
 h1. YUIDoc OSX Application
 
 Creating a GUI application on top of YUIDoc for OSX
+
+The GUI now works (if you have the yuidoc dependencies already installed)
+
+There are a couple of additions I still want to make:
+
+* Progress Spinner
+* Disable Generate button of all data is not present
+* Animate the logger window so it's smaller to begin with.
+* Create an icon
+
+h2. Screen Shot
+
+Here is a teaser screenshot:
+
+!http://img.skitch.com/20090627-q1fatfbp85j5i8p8wc5mi17g4m.jpg!
+
+h3. Install
+
+* Install YUIDoc's "dependencies":http://developer.yahoo.com/yui/yuidoc/#start
+* Check out the source: git clone git://github.com/davglass/yuidoc-app.git
+* Init the submodule: git submodule init
+* Update the submodule: git submodule update
+* Open YUIDocGUI.xcodeproj and Build
+* Profit!!
